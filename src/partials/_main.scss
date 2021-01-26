@@ -1,0 +1,43 @@
+main{
+    #processes{
+        background-color: $primary;
+        .card_wrapper{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: auto;
+            .card{
+                flex-basis: calc(100% / 3);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                    height: 100px;
+                }
+                h5{
+                    padding: 10px;
+                    font-weight: 400;
+                }
+            }
+            .card:last-child{
+                margin: 50px 0;
+                img{
+                    height: 300px;
+                }
+            }
+        }
+        .card_wrapper:first-child{
+            border-bottom: 1px solid $third;
+        }
+        .card_wrapper:last-child{
+            padding-top: 50px;
+            h2{
+                text-transform: uppercase;
+                color: $third;
+                padding-top: 50px;
+            }
+        }
+    }
+}

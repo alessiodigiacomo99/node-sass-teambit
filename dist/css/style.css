@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto";
+}
+
 .btn {
   background-color: blue;
   padding: 5px 10px;
@@ -48,6 +52,10 @@ i {
   vertical-align: middle;
 }
 
+section {
+  padding: 50px 0;
+}
+
 header {
   width: 90%;
   margin: auto;
@@ -81,4 +89,46 @@ header #jumbotron p {
 }
 header #jumbotron .bg {
   width: 50%;
+}
+
+main #processes {
+  background-color: pink;
+}
+main #processes .card_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+main #processes .card_wrapper .card {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #processes .card_wrapper .card img {
+  height: 100px;
+}
+main #processes .card_wrapper .card h5 {
+  padding: 10px;
+  font-weight: 400;
+}
+main #processes .card_wrapper .card:last-child {
+  margin: 50px 0;
+}
+main #processes .card_wrapper .card:last-child img {
+  height: 300px;
+}
+main #processes .card_wrapper:first-child {
+  border-bottom: 1px solid #5e0c0c;
+}
+main #processes .card_wrapper:last-child {
+  padding-top: 50px;
+}
+main #processes .card_wrapper:last-child h2 {
+  text-transform: uppercase;
+  color: #5e0c0c;
+  padding-top: 50px;
 }
