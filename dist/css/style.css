@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: blue;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+}
+
+.btn_google {
+  color: blue;
+  text-transform: capitalize;
+  border: 1px solid blue;
+  padding: 7px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.logo {
+  width: 20px;
+  vertical-align: middle;
+}
+
+i {
+  vertical-align: middle;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+header #navbar {
+  justify-content: space-between;
+  border-bottom: 1px solid #5e0c0c;
+  padding: 10px 0;
+}
+header #navbar ul {
+  text-transform: capitalize;
+}
+header #navbar ul li {
+  color: #5e0c0c;
+  font-weight: 700;
+  margin: 0 5px;
+  cursor: pointer;
+}
+header #navbar ul li:last-child {
+  color: blue;
+}
+header #jumbotron {
+  padding: 50px 0;
+  display: flex;
+}
+header #jumbotron h1, header #jumbotron p {
+  color: #5e0c0c;
+}
+header #jumbotron p {
+  padding-bottom: 40px;
+}
+header #jumbotron .bg {
+  width: 50%;
+}

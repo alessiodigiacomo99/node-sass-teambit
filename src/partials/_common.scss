@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    @include bottone;
+}
+
+.btn_google{
+    @include bottone_due;
+}
+
+a{
+    color: $secondary;
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.logo{
+    width: 20px;
+    vertical-align: middle;
+}
+
+i{
+    vertical-align: middle;
+}

@@ -1,0 +1,20 @@
+@mixin bottone {
+    background-color: $secondary;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+
+@mixin bottone_due {
+    color: $secondary;
+    text-transform: capitalize;
+    border: 1px solid $secondary;
+    padding: 7px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
