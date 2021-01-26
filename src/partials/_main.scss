@@ -40,4 +40,47 @@ main{
             }
         }
     }
+    #how_work{
+        .sezione{
+            position: relative;
+            height: 800px;
+            padding: 100px 0;
+            .wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                color: $third;
+                div{
+                    width: 20%;
+                    margin: 0 10px;
+                    h4{
+                        line-height: 2;
+                        padding-bottom: 20px;
+                    }
+                    p{
+                        padding: 20px 0;
+                    }
+                }
+                img{
+                    height: 400px;
+                }
+            }
+            .position{
+                position: absolute;
+                bottom: 0;
+                right: 20%;
+                img{
+                    height: 300px;
+                }
+            } 
+        }
+        .sezione:nth-child(2n){
+            .wrapper{
+                justify-content: flex-end;
+            }
+            .position{
+                left: 20%;
+            }
+        }
+        
+    }
 }

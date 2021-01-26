@@ -132,3 +132,41 @@ main #processes .card_wrapper:last-child h2 {
   color: #5e0c0c;
   padding-top: 50px;
 }
+main #how_work .sezione {
+  position: relative;
+  height: 800px;
+  padding: 100px 0;
+}
+main #how_work .sezione .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  color: #5e0c0c;
+}
+main #how_work .sezione .wrapper div {
+  width: 20%;
+  margin: 0 10px;
+}
+main #how_work .sezione .wrapper div h4 {
+  line-height: 2;
+  padding-bottom: 20px;
+}
+main #how_work .sezione .wrapper div p {
+  padding: 20px 0;
+}
+main #how_work .sezione .wrapper img {
+  height: 400px;
+}
+main #how_work .sezione .position {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+main #how_work .sezione .position img {
+  height: 300px;
+}
+main #how_work .sezione:nth-child(2n) .wrapper {
+  justify-content: flex-end;
+}
+main #how_work .sezione:nth-child(2n) .position {
+  left: 20%;
+}
