@@ -1,0 +1,32 @@
+#site_footer{
+    display: flex;
+    padding: 100px;
+    color: $third;
+    justify-content: space-between;
+    font-weight: 700;
+    >div:first-child{
+        display: flex;
+        width: 20%;
+        align-items: flex-start;
+        p{
+            margin: 0 10px;
+            line-height: 1.7;
+            span{
+                color: $secondary;
+                font-size: 0.8rem;
+                text-transform: capitalize;
+                margin-right: 5px;
+            }
+        }
+    }
+    ul{
+        text-transform: capitalize;
+        li:first-child{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}

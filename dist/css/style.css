@@ -226,3 +226,36 @@ main #join_us a.link i {
   align-self: center;
   margin: 0 5px;
 }
+
+#site_footer {
+  display: flex;
+  padding: 100px;
+  color: #5e0c0c;
+  justify-content: space-between;
+  font-weight: 700;
+}
+#site_footer > div:first-child {
+  display: flex;
+  width: 20%;
+  align-items: flex-start;
+}
+#site_footer > div:first-child p {
+  margin: 0 10px;
+  line-height: 1.7;
+}
+#site_footer > div:first-child p span {
+  color: blue;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+#site_footer ul {
+  text-transform: capitalize;
+}
+#site_footer ul li:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+#site_footer ul li {
+  margin-bottom: 10px;
+}
