@@ -12,6 +12,7 @@ header{
                 font-weight: 700;
                 margin: 0 5px;
                 cursor: pointer;
+                display: inline-block;
             }
             li:last-child{
                 color: $secondary;
@@ -29,6 +30,6 @@ header{
         }
         .bg{
             width: 50%;
-        }
+        }   
     }
 }

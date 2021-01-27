@@ -17,6 +17,7 @@ body {
   border-radius: 5px;
   outline: 0;
   border: 0;
+  cursor: pointer;
 }
 
 .btn_google {
@@ -40,7 +41,6 @@ a {
 
 li {
   list-style: none;
-  display: inline-block;
 }
 
 .logo {
@@ -73,6 +73,7 @@ header #navbar ul li {
   font-weight: 700;
   margin: 0 5px;
   cursor: pointer;
+  display: inline-block;
 }
 header #navbar ul li:last-child {
   color: blue;
@@ -153,6 +154,9 @@ main #how_work .sezione .wrapper div h4 {
 main #how_work .sezione .wrapper div p {
   padding: 20px 0;
 }
+main #how_work .sezione .wrapper div i {
+  margin: 0 5px;
+}
 main #how_work .sezione .wrapper img {
   height: 400px;
 }
@@ -169,4 +173,56 @@ main #how_work .sezione:nth-child(2n) .wrapper {
 }
 main #how_work .sezione:nth-child(2n) .position {
   left: 20%;
+}
+main #join_us {
+  background-color: pink;
+}
+main #join_us > div:first-child {
+  width: 60%;
+  margin: auto;
+  font-size: 1.3rem;
+  color: #5e0c0c;
+  margin-bottom: 50px;
+}
+main #join_us > div:first-child h2 img {
+  margin-left: 15px;
+}
+main #join_us .card {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+main #join_us .card > p {
+  padding: 15px 0;
+}
+main #join_us .card > div {
+  display: flex;
+}
+main #join_us .card > div img:nth-child(2) {
+  margin: 0 20px;
+}
+main #join_us .card > div h5 {
+  color: blue;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+main #join_us > div.d-flex {
+  margin: 50px 0;
+  justify-content: center;
+}
+main #join_us > div.d-flex span {
+  margin: 0 10px;
+  align-self: center;
+}
+main #join_us a.link {
+  display: flex;
+  justify-content: center;
+  color: #5e0c0c;
+}
+main #join_us a.link i {
+  align-self: center;
+  margin: 0 5px;
 }

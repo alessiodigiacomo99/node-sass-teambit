@@ -40,6 +40,7 @@ main{
             }
         }
     }
+
     #how_work{
         .sezione{
             position: relative;
@@ -58,6 +59,9 @@ main{
                     }
                     p{
                         padding: 20px 0;
+                    }
+                    i{
+                        margin: 0 5px;
                     }
                 }
                 img{
@@ -82,5 +86,60 @@ main{
             }
         }
         
+    }
+
+    #join_us{
+        background-color: $primary;
+        >div:first-child{
+            width: 60%;
+            margin: auto;
+            font-size: 1.3rem;
+            color: $third;
+            margin-bottom: 50px;
+            h2{
+                img{
+                    margin-left: 15px
+                };
+            }
+        }
+        .card{
+            width: 50%;
+            margin: auto;
+            background-color: white;
+            border: 2px solid $secondary;
+            border-radius: 5px;
+            padding: 10px;
+            >p{
+                padding: 15px 0;
+            }
+            >div{
+                display: flex;
+                img:nth-child(2){
+                    margin: 0 20px;
+                }
+                h5{
+                    color: $secondary;
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        >div.d-flex{
+            margin: 50px 0;
+            justify-content: center;
+            span{
+                margin: 0 10px;
+                align-self: center;
+            }
+        }
+        a.link{
+            display: flex;
+            justify-content: center;
+            color: $third;
+            i{
+                align-self: center;
+                margin: 0 5px;
+            }
+        }
     }
 }
