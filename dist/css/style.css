@@ -10,7 +10,7 @@ body {
 
 .btn {
   background-color: blue;
-  padding: 5px 10px;
+  padding: 5px;
   color: white;
   font-weight: 700;
   text-transform: capitalize;
@@ -60,6 +60,16 @@ section {
   padding: 50px 0;
 }
 
+.p-block {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  left: 0;
+  padding: 10px 20px !important;
+}
+
 header {
   width: 90%;
   margin: auto;
@@ -99,6 +109,9 @@ header #jumbotron p {
 }
 header #jumbotron .bg {
   width: 50%;
+}
+header #jumbotron .btn {
+  font-size: 0.8rem;
 }
 
 main #processes {

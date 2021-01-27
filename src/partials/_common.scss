@@ -45,3 +45,13 @@ i{
 section{
     padding: 50px 0;
 }
+
+.p-block{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    padding: 10px 20px!important;
+}
