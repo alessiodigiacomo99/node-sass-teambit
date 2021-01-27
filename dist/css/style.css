@@ -39,6 +39,10 @@ a {
   display: flex;
 }
 
+.d-none {
+  display: none;
+}
+
 li {
   list-style: none;
 }
@@ -251,6 +255,7 @@ main #join_us a.link i {
 }
 #site_footer ul {
   text-transform: capitalize;
+  width: 80px;
 }
 #site_footer ul li:first-child {
   font-size: 1.5rem;
@@ -258,4 +263,86 @@ main #join_us a.link i {
 }
 #site_footer ul li {
   margin-bottom: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 998px) {
+  header #navbar ul {
+    display: none;
+  }
+  header #navbar i {
+    display: block;
+    color: #5e0c0c;
+    align-self: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  header #jumbotron {
+    flex-wrap: wrap;
+  }
+  header #jumbotron > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  header #jumbotron > div h1 {
+    line-height: 2;
+  }
+  header #jumbotron > div a {
+    margin: 10px 0;
+  }
+  header #jumbotron .bg {
+    width: 100%;
+  }
+
+  main #processes .card_wrapper .card {
+    flex-basis: 100%;
+    margin: 40px 0;
+  }
+  main #how_work .sezione {
+    height: auto;
+    padding: 50px 0;
+  }
+  main #how_work .sezione .wrapper {
+    flex-direction: column;
+  }
+  main #how_work .sezione .wrapper div {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  main #how_work .sezione .wrapper div a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  main #how_work .sezione .wrapper img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  main #how_work .sezione .position {
+    position: unset;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #site_footer {
+    flex-wrap: wrap;
+  }
+  #site_footer > div:first-child {
+    width: 100%;
+  }
+  #site_footer > div:first-child img {
+    width: 200px;
+  }
+  #site_footer ul {
+    flex-basis: calc(100% / 3);
+    margin: 20px 0;
+    width: 150px;
+  }
+  #site_footer ul li {
+    width: 100%;
+  }
 }

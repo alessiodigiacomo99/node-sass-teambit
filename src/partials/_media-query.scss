@@ -1,0 +1,92 @@
+@media screen and (max-width: 998px){
+    header{
+        #navbar{
+            ul{
+                display: none;
+            }
+            i{
+                display: block;
+                color: $third;
+                align-self: center;
+                font-size: 1.3rem;
+                cursor: pointer;
+            }
+        }
+        #jumbotron{
+            flex-wrap: wrap;
+            >div{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                h1{
+                    line-height: 2;
+                }
+                a{
+                    margin: 10px 0;
+                }
+            }
+            .bg{
+                width: 100%;
+            }
+        }
+    }
+
+    main{
+        #processes{
+            .card_wrapper{
+                .card{
+                    flex-basis: 100%;
+                    margin: 40px 0;
+                }
+            }
+        }
+        #how_work{
+            .sezione{
+                height: auto;
+                padding: 50px 0;
+                .wrapper{
+                    flex-direction: column;
+                    div{
+                        width: 100%;
+                        text-align: center;
+                        margin: 0;
+                        a{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                    img{
+                        width: 80%;
+                        height: auto;
+                        margin: auto;
+                    }
+                }
+                .position{
+                    position: unset;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    #site_footer{
+        flex-wrap: wrap;
+        >div:first-child{
+            width: 100%;
+            img{
+                width: 200px;
+            }
+        }
+        ul{
+            flex-basis: calc(100% / 3);
+            margin: 20px 0;
+            width: 150px;
+            li{
+                width: 100%;
+            }
+        }
+    }
+}
