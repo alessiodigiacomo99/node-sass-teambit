@@ -25,6 +25,12 @@
                 a{
                     margin: 10px 0;
                 }
+                div{
+                    button{
+                        padding: 5px;
+                        font-size: 0.6rem;
+                    }
+                }
             }
             .bg{
                 width: 100%;
@@ -51,6 +57,9 @@
                         width: 100%;
                         text-align: center;
                         margin: 0;
+                        h4{
+                            font-size: 1rem;
+                        }
                         a{
                             position: absolute;
                             bottom: 0;
@@ -68,6 +77,15 @@
                     text-align: center;
                     margin-top: 20px;
                 }
+            }
+        }
+        #join_us{
+            h2{
+                font-size: 1.8rem;
+                line-height: 2;
+            }
+            .card{
+                width: 85%;
             }
         }
     }
@@ -88,5 +106,48 @@
                 width: 100%;
             }
         }
+    }
+}
+
+@media screen and (max-width: 550px){
+    main{
+        #how_work{
+            .sezione{
+                .wrapper{
+                    div{
+                        a{
+                            position: unset;
+                        }
+                    }
+                }
+                .position{
+                    img{
+                        height: 200px;
+                    }
+                }
+            }
+        }
+        #join_us{
+            h2{
+                line-height: 1.5;
+            }
+            .card{
+                >div{
+                    img{
+                        width: 20%;
+                    }
+                }
+            }
+            >.d-flex{
+                .btn{
+                    padding: 5px;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+    #site_footer{
+        padding: 50px;
+        justify-content: unset;
     }
 }

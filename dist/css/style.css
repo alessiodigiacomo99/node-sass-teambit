@@ -82,6 +82,11 @@ header #navbar ul li {
 header #navbar ul li:last-child {
   color: blue;
 }
+header #navbar ul li:last-child:hover {
+  color: white;
+  background-color: blue;
+  transition: all 0.5s;
+}
 header #jumbotron {
   padding: 50px 0;
   display: flex;
@@ -98,6 +103,11 @@ header #jumbotron .bg {
 
 main #processes {
   background-color: pink;
+}
+main #processes h2 {
+  color: #5e0c0c;
+  text-align: center;
+  margin-bottom: 50px;
 }
 main #processes .card_wrapper {
   display: flex;
@@ -126,8 +136,9 @@ main #processes .card_wrapper .card:last-child {
 main #processes .card_wrapper .card:last-child img {
   height: 300px;
 }
-main #processes .card_wrapper:first-child {
+main #processes .card_wrapper:first-of-type {
   border-bottom: 1px solid #5e0c0c;
+  margin-bottom: 50px;
 }
 main #processes .card_wrapper:last-child {
   padding-top: 50px;
@@ -187,6 +198,10 @@ main #join_us > div:first-child {
   font-size: 1.3rem;
   color: #5e0c0c;
   margin-bottom: 50px;
+}
+main #join_us > div:first-child h2 {
+  font-size: 2.5rem;
+  text-align: center;
 }
 main #join_us > div:first-child h2 img {
   margin-left: 15px;
@@ -292,6 +307,10 @@ main #join_us a.link i {
   header #jumbotron > div a {
     margin: 10px 0;
   }
+  header #jumbotron > div div button {
+    padding: 5px;
+    font-size: 0.6rem;
+  }
   header #jumbotron .bg {
     width: 100%;
   }
@@ -312,6 +331,9 @@ main #join_us a.link i {
     text-align: center;
     margin: 0;
   }
+  main #how_work .sezione .wrapper div h4 {
+    font-size: 1rem;
+  }
   main #how_work .sezione .wrapper div a {
     position: absolute;
     bottom: 0;
@@ -326,6 +348,13 @@ main #join_us a.link i {
     position: unset;
     text-align: center;
     margin-top: 20px;
+  }
+  main #join_us h2 {
+    font-size: 1.8rem;
+    line-height: 2;
+  }
+  main #join_us .card {
+    width: 85%;
   }
 
   #site_footer {
@@ -344,5 +373,28 @@ main #join_us a.link i {
   }
   #site_footer ul li {
     width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  main #how_work .sezione .wrapper div a {
+    position: unset;
+  }
+  main #how_work .sezione .position img {
+    height: 200px;
+  }
+  main #join_us h2 {
+    line-height: 1.5;
+  }
+  main #join_us .card > div img {
+    width: 20%;
+  }
+  main #join_us > .d-flex .btn {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+
+  #site_footer {
+    padding: 50px;
+    justify-content: unset;
   }
 }
